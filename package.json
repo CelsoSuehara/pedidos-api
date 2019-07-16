@@ -1,0 +1,27 @@
+{
+  "name": "str",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/server.js"
+  },
+  "author": "McCartney",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
+    "azure-storage": "^2.10.3",
+    "body-parser": "^1.19.0",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "guid": "0.0.12",
+    "http": "0.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.2.1",
+    "mongoose": "^5.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
